@@ -2,18 +2,258 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
+    <title>tatitotu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <h1>Hello world</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col">colonne 1</div>
-        <div class="col">colonne 2</div>
+    <header>
+      <div class="container header">
+        <div class="row">
+          <div class="col-1">
+            <img src="img/tatitotu-logo.svg" alt="TATITOTU" />
+          </div>
+          <div class="col-6 offset-1"><h1>defis de conjugaison</h1></div>
+          <div class="col-4 menu">
+            <a class="menu-cta" href="#">Préréglages</a>
+            <a class="menu-cta" href="#">Accueil</a>
+            <a class="menu-cta" href="#">
+              Help <img src="img/help.svg" alt="I" />
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
+    </header>
+    <main>
+      <div class="container title-container">
+        <div class="row">
+          <div class="col-2">
+            <div class="row">
+              <div class="col title"><h2>verbes</h2></div>
+              <div class="col"><a class="title-cta" href="#">hypertext</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container section-verbe">
+        <div class="row">
+          <div class="col-10 offset-1">
+            <div class="row">
+              <div class="col-3">
+                <div class="textfield">
+                  <input type="text" placeholder="Ajoutez un verbe" />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <div class="verb-list">
+                  <ul>
+                    <li>
+                      <p>être</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                    <li>
+                      <p>savoir</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                    <li>
+                      <p>manger</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="_liste-verbe">
+                  <ul>
+                    <li>
+                      <p>être</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                    <li>
+                      <p>savoir</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                    <li>
+                      <p>manger</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="_liste-verbe">
+                  <ul>
+                    <li>
+                      <p>être</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                    <li>
+                      <p>savoir</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                    <li>
+                      <p>manger</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="_liste-verbe">
+                  <ul>
+                    <li>
+                      <p>être</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                    <li>
+                      <p>savoir</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                    <li>
+                      <p>manger</p>
+                      <img src="img/cross.svg" alt="X" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container title-container">
+        <div class="row">
+          <div class="col-2">
+            <div class="row">
+              <div class="col title"><h2>temps</h2></div>
+              <div class="col">
+                <a class="title-cta" href="#">hypertext</a>
+                <br />
+                <a class="title-cta" href="#">hypertext</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container section-temps">
+        <div class="row">
+          <div class="col-10 offset-1">
+            <div class="row">
+              <div class="col-4 temps-button"><button><h3>indicatif</h3></button></div>
+              <div class="col-4 temps-button"><button><h3>imperatif</h3></button></div>
+              <div class="col-4 temps-button"><button><h3>subjontif</h3></button></div>
+              <div class="col-4 temps-button"><button><h3>conditionnel</h3></button></div>
+              <div class="col-4 temps-button"><button><h3>participe</h3></button></div>
+              <div class="col-4 temps-button"><button><h3>gerondif</h3></button></div>
+          </div>
+        </div>
+      </div>
+      <div class="container title-container">
+        <div class="row">
+          <div class="col-2">
+            <div class="row">
+              <div class="col title"><h2>options</h2></div>
+              <div class="col">
+                <a class="title-cta" href="#">hypertext</a>
+                <br />
+                <a class="title-cta" href="#">hypertext</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container section-option">
+        <div class="row">
+          <div class="col-5 offset-1">
+            <h3>nombre de questions</h3>
+            <select
+              class="question-select"
+              name="nbr-question"
+              id="question-select"
+            >
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+              <option value="25">25</option>
+              <option value="30">30</option>
+              <option value="35">35</option>
+              <option value="40">40</option>
+            </select>
+          </div>
+          <div class="col-5">
+            <h3>type</h3>
+            <div class="type-select">
+              <input type="radio" id="normal" name="type" />
+              <label for="normal">normal</label>
+              <input type="radio" id="mode" name="type" />
+              <label for="mode">Trouver mode + temps</label>
+            </div>
+          </div>
+          <div class="col-10 offset-1">
+            <div class="row">
+              <div class="col-3"><h3>option de d'impression</h3></div>
+              <div class="col-9"></div>
+              <div class="col-3">
+                <div class="textfield">
+                  <input type="text" placeholder="Ajoutez un verbe" />
+                </div>
+              </div>
+              <div class="col-9"></div>
+              <div class="col-6 option-list">
+                <ul>
+                  <li>Afficher espace pour la note</li>
+                  <li>Afficher les verbes évaluées</li>
+                  <li>Afficher lea temps évaluées</li>
+                  <li>Afficher espace pour le prénom</li>
+                </ul>
+              </div>
+              <div class="col-6 option-list">
+                <ul>
+                  <li>Afficher espace pour le nom</li>
+                  <li>Afficher espace pour la date</li>
+                  <li>Afficher les pronom inclusifs (il/elle/iel)</li>
+                  <li>
+                    Afficher nombres aléatoire
+                    <span class="option-presition">
+                      Permet de retrouver plus facilement quel corrigé va avec
+                      quel questionnaire.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container title-container">
+        <div class="row">
+          <div class="col-2">
+            <div class="row">
+              <div class="col title"><h2>exercer</h2></div>
+              <div class="col">
+                <a class="title-cta" href="#">hypertext</a>
+                <br />
+                <a class="title-cta" href="#">hypertext</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container section-temps">
+        <div class="row">
+          <div class="col-10 offset-1">
+            <div class="row">
+              <div class="col-6 exercer-button"><button><h3>exercer</h3></button></div>
+              <div class="col-6 exercer-button"><button><h3>imprimer</h3></button></div>
+              <div class="col-6 exercer-button"><button><h3>sauvegarder mon defis</h3></button></div>
+              <div class="col-6 exercer-button"><button><h3>charger mon defis</h3></button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
