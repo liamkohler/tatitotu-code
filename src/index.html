@@ -8,10 +8,10 @@
   </head>
   <body>
     <header>
-      <div class="container header">
+      <div class="container">
         <div class="row">
           <div class="col-1">
-            <img src="img/tatitotu-logo.svg" alt="TATITOTU" />
+            <img class="logo" src="img/tatitotu-logo.svg" alt="TATITOTU" />
           </div>
           <div class="col-6 offset-1"><h1>defis de conjugaison</h1></div>
           <div class="col-4 menu">
@@ -35,7 +35,7 @@
           </div>
         </div>
       </div>
-      <div class="container section-verbe">
+      <div class="container verbe-section">
         <div class="row">
           <div class="col-10 offset-1">
             <div class="row">
@@ -65,7 +65,7 @@
                 </div>
               </div>
               <div class="col-3">
-                <div class="_liste-verbe">
+                <div class="verb-list">
                   <ul>
                     <li>
                       <p>être</p>
@@ -83,7 +83,7 @@
                 </div>
               </div>
               <div class="col-3">
-                <div class="_liste-verbe">
+                <div class="verb-list">
                   <ul>
                     <li>
                       <p>être</p>
@@ -101,7 +101,7 @@
                 </div>
               </div>
               <div class="col-3">
-                <div class="_liste-verbe">
+                <div class="verb-list">
                   <ul>
                     <li>
                       <p>être</p>
@@ -136,26 +136,26 @@
           </div>
         </div>
       </div>
-      <div class="container section-temps">
+      <div class="container temps-section">
         <div class="row">
-          <div class="col-10 offset-1">
+          <div class="col-10 offset-1 l-button-container">
             <div class="row">
-              <div class="col-4 temps-button">
+              <div class="col-4 button l-button-temps">
                 <button><h3>indicatif</h3></button>
               </div>
-              <div class="col-4 temps-button">
+              <div class="col-4 button l-button-temps">
                 <button><h3>imperatif</h3></button>
               </div>
-              <div class="col-4 temps-button">
+              <div class="col-4 button l-button-temps">
                 <button><h3>subjontif</h3></button>
               </div>
-              <div class="col-4 temps-button">
+              <div class="col-4 button l-button-temps">
                 <button><h3>conditionnel</h3></button>
               </div>
-              <div class="col-4 temps-button">
+              <div class="col-4 button l-button-temps">
                 <button><h3>participe</h3></button>
               </div>
-              <div class="col-4 temps-button">
+              <div class="col-4 button l-button-temps">
                 <button><h3>gerondif</h3></button>
               </div>
             </div>
@@ -176,12 +176,12 @@
           </div>
         </div>
       </div>
-      <div class="container section-option">
+      <div class="container option-section">
         <div class="row">
-          <div class="col-5 offset-1">
+          <div class="col-5 offset-1 question-amount">
             <h3>nombre de questions</h3>
             <select
-              class="question-select"
+              class="question-amount-select"
               name="nbr-question"
               id="question-select"
             >
@@ -195,16 +195,16 @@
               <option value="40">40</option>
             </select>
           </div>
-          <div class="col-5">
+          <div class="col-5 question-type">
             <h3>type</h3>
-            <div class="type-select">
+            <div class="question-type-select">
               <input type="radio" id="normal" name="type" />
               <label for="normal">normal</label>
               <input type="radio" id="mode" name="type" />
               <label for="mode">Trouver mode + temps</label>
             </div>
           </div>
-          <div class="col-10 offset-1">
+          <div class="col-10 offset-1 question-option">
             <div class="row">
               <div class="col-3"><h3>option de d'impression</h3></div>
               <div class="col-9"></div>
@@ -254,20 +254,20 @@
           </div>
         </div>
       </div>
-      <div class="container section-temps">
+      <div class="container exercer-section">
         <div class="row">
           <div class="col-10 offset-1">
             <div class="row">
-              <div class="col-6 exercer-button">
+              <div class="col-6 botton l-exercer-button">
                 <button><h3>exercer</h3></button>
               </div>
-              <div class="col-6 exercer-button">
+              <div class="col-6 botton l-exercer-button">
                 <button><h3>imprimer</h3></button>
               </div>
-              <div class="col-6 exercer-button">
+              <div class="col-6 botton l-exercer-button">
                 <button><h3>sauvegarder mon defis</h3></button>
               </div>
-              <div class="col-6 exercer-button">
+              <div class="col-6 botton l-exercer-button">
                 <button><h3>charger mon defis</h3></button>
               </div>
             </div>
