@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <header>
+    <header class="l-header">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-1">
             <img class="logo" src="img/tatitotu-logo.svg" alt="TATITOTU" />
           </div>
           <div class="col-6 offset-1"><h1>defis de conjugaison</h1></div>
           <div class="col-4 menu">
             <a class="menu-cta" href="#">Préréglages</a>
+            <div class="menu-separation"></div>
             <a class="menu-cta" href="#">Accueil</a>
+            <div class="menu-separation"></div>
             <a class="menu-cta" href="#">
               Help <img src="img/help.svg" alt="I" />
             </a>
@@ -25,19 +27,23 @@
       </div>
     </header>
     <main>
-      <div class="container title-container">
+      <div class="container">
         <div class="row">
           <div class="col-2">
             <div class="row">
-              <div class="col title"><h2>verbes</h2></div>
-              <div class="col"><a class="title-cta" href="#">hypertext</a></div>
+              <div class="title-container">
+                <div class="col title"><h2>verbes</h2></div>
+                <div class="col">
+                  <a class="title-cta" href="#">hypertext</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="container verbe-section">
+      <div class="container verb-section">
         <div class="row">
-          <div class="col-10 offset-1">
+          <div class="col-10 offset-1 verb-container">
             <div class="row">
               <div class="col-3">
                 <div class="textfield">
@@ -122,15 +128,17 @@
           </div>
         </div>
       </div>
-      <div class="container title-container">
+      <div class="container">
         <div class="row">
           <div class="col-2">
             <div class="row">
-              <div class="col title"><h2>temps</h2></div>
-              <div class="col">
-                <a class="title-cta" href="#">hypertext</a>
-                <br />
-                <a class="title-cta" href="#">hypertext</a>
+              <div class="title-container">
+                <div class="col title"><h2>temps</h2></div>
+                <div class="col">
+                  <a class="title-cta" href="#">hypertext</a>
+                  <br />
+                  <a class="title-cta" href="#">hypertext</a>
+                </div>
               </div>
             </div>
           </div>
@@ -178,10 +186,10 @@
       </div>
       <div class="container option-section">
         <div class="row">
-          <div class="col-5 offset-1 question-amount">
+          <div class="col-5 offset-1 option-question-amount">
             <h3>nombre de questions</h3>
             <select
-              class="question-amount-select"
+              class="option-question-amount-select"
               name="nbr-question"
               id="question-select"
             >
@@ -195,16 +203,16 @@
               <option value="40">40</option>
             </select>
           </div>
-          <div class="col-5 question-type">
+          <div class="col-5 option-type">
             <h3>type</h3>
-            <div class="question-type-select">
+            <div class="option-type-select">
               <input type="radio" id="normal" name="type" />
               <label for="normal">normal</label>
               <input type="radio" id="mode" name="type" />
               <label for="mode">Trouver mode + temps</label>
             </div>
           </div>
-          <div class="col-10 offset-1 question-option">
+          <div class="col-10 offset-1 option-impression">
             <div class="row">
               <div class="col-3"><h3>option de d'impression</h3></div>
               <div class="col-9"></div>
@@ -214,7 +222,7 @@
                 </div>
               </div>
               <div class="col-9"></div>
-              <div class="col-6 option-list">
+              <div class="col-6 option-impression-list">
                 <ul>
                   <li>Afficher espace pour la note</li>
                   <li>Afficher les verbes évaluées</li>
@@ -222,14 +230,14 @@
                   <li>Afficher espace pour le prénom</li>
                 </ul>
               </div>
-              <div class="col-6 option-list">
+              <div class="col-6 option-impression-list">
                 <ul>
                   <li>Afficher espace pour le nom</li>
                   <li>Afficher espace pour la date</li>
                   <li>Afficher les pronom inclusifs (il/elle/iel)</li>
                   <li>
                     Afficher nombres aléatoire
-                    <span class="option-presition">
+                    <span class="option-impression-list-presition">
                       Permet de retrouver plus facilement quel corrigé va avec
                       quel questionnaire.
                     </span>

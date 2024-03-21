@@ -1,21 +1,68 @@
 @import "bootstrap/scss/bootstrap-grid";
 @import "base";
 @import "layout";
-@import "modules/logo";
+@import "modules/header";
+//logo; h1; menu; menu-cta; menu>img
+
 @import "modules/title";
-.row + .row {
-  margin-top: 16px;
+//title-container; title; title-cta
+
+@import "modules/button";
+//button
+
+@import "modules/textfield";
+//textfield
+
+@import "modules/verb";
+//verb-container; verb-list;
+
+@import "modules/temps";
+//-
+
+@import "modules/option";
+//option-question-amount; option-question-amount-select; option-type;
+//option-type-select; option-impression; option-impression-list;
+//option-impression-list-presition
+
+@import "modules/exercer";
+
+// .row + .row {
+//   margin-top: 16px;
+// }
+
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
+
+$title: #000000;
+$dark-blue: #767bff;
+$button-blue: #e9e6ff;
+$hover: #aaadff;
+
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 245, 255, 1) 100%
+  );
+  font-family: inter;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+header {
+  background-color: $dark-blue;
 }
 
-li {
-  display: flex;
-  justify-content: space-between;
+h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+img {
+  max-width: 100px;
 }
