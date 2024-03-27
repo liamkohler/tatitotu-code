@@ -1,10 +1,14 @@
-$title: #000;
-
 .title-container {
   background-color: $title;
   color: #fff;
+  border-radius: 15px;
+  padding: 20px 35px;
+  margin: 0 -35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.title {
-}
+
 .title-cta {
+  font-size: 13px;
 }

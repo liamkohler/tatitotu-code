@@ -7,11 +7,16 @@
 
 .menu-cta {
   text-decoration: none;
-  font-size: 20wpx;
+  font-size: 20px;
   display: flex;
 }
 
 .menu-separation {
   padding: 25px 1px;
   background-color: rgba(#000000, 0.1);
+}
+
+.menu-help {
+  display: flex;
+  gap: 3px;
 }
