@@ -1,0 +1,41 @@
+.option-question-amount,
+.option-type,
+.option-impression {
+  background-color: $section-background;
+  filter: drop-shadow(0px 4px 34px rgba(0, 0, 0, 0.15));
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.option-question-amount,
+.option-type {
+  padding: 15px 50px;
+}
+
+.option-impression {
+  padding: 40px 45px;
+}
+
+.option-type-select {
+}
+
+.option-impression-list-border {
+  background-color: #0003;
+  width: 190px;
+  height: 1px;
+}
+
+.option-impression-list span {
+  font-size: 12px;
+}
+
+.option-impression-list-presition {
+}
+
+.option-question-amount-select {
+}
+
+.option-section {
+}
