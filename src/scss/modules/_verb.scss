@@ -8,7 +8,13 @@
 .verb-list li {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: #0003 solid 1px;
   margin-bottom: 12px;
   padding-bottom: 12px;
+}
+
+.verb-list img {
+  max-height: 20px;
+  max-width: 20px;
 }
